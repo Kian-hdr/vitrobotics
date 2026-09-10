@@ -6,6 +6,10 @@ The guard was an assembly: an outer ring, branching ribs, mounting brackets and 
 
 ## Geometry and revisions
 
+![Clockwise and counter-clockwise guard designs with segmented branching geometry](../../media/guard-design-variants.png)
+
+*CAD view of the paired guard designs, with three coloured segments.*
+
 The v1, v2 and v2.1 families preserve several iterations of the guards. The later versions use three-part exports: `Prop_Guard (1).3mf`, `Prop_Guard (2).3mf` and `Prop_Guard (3).3mf`, with CW and CCW variants. Top and bottom brackets and mounting-plate revisions sit alongside them.
 
 The CAD render `Prop_Guard_gd5.2 v11.png` shows the mirrored guard arrangement, divided into three coloured segments with organic branching ribs. It illustrates how the guard geometry was broken into components for assembly.

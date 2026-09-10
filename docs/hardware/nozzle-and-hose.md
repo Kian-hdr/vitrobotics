@@ -12,6 +12,10 @@ These files cover the nozzle attachment and hose support as separate component f
 
 ## Preparing the adapter for printing
 
+![Adapter geometry and support material in the saved slicer setup](../../media/adapter-print-preparation.png)
+
+*The saved November 2024 print-preparation view. Material and time figures are slicer estimates.*
+
 The November 2024 adapter print setup used a Bambu Lab A1 with a 0.4 mm nozzle, Extrudr GreenTec pro CF filament and a 0.20 mm profile. The branching geometry required support material, which added to the material and time needed to produce the part.
 
 The saved slicer view, `Screenshot 2024-11-20 at 10.00.15.png`, estimated **82.14 g of model filament**, **106.93 g total filament** and **4 h 23 min** of printing. Those figures describe the print setup. Finished-part mass and mechanical performance are not included in this record.

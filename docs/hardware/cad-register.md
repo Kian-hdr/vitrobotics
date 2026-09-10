@@ -19,8 +19,10 @@ The mechanical work is organised around adapters, guards, mounting hardware and 
 - [Propeller guards](propeller-guards.md)
 - [Successor hexacopter](successor-hexacopter.md)
 
-## Editable files
+## Geometry files
 
-This repository currently contains documentation and previews. Editable CAD will be added with the applicable license, source attribution, revision and units. Third-party frame geometry will remain clearly attributed and separate from our modifications.
+The [component geometry folder](../../hardware/inspection/README.md) contains STL inspection exports of the generated nozzle adapter and one clockwise guard component. Coordinates are in millimetres. Native editable histories and optimization studies remain separate from these mesh exports.
+
+Third-party frame geometry is not included in the component package.
 
 The remaining documentation work is to connect the native studies, manufacturing exports and installed parts for each build. A 3MF mesh alone does not contain the full parametric or optimization history.
