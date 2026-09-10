@@ -1,23 +1,25 @@
 # Why Vitrobotics existed
 
-The original aim was to explore drone-based window and façade cleaning: put the cleaning equipment near the surface while the operator and water supply remained on the ground. Historical plans also proposed electrical tether power to address battery endurance and automated routes to make cleaning repeatable.
-
-These were separate engineering objectives. Demonstrating water spraying in flight did not, by itself, demonstrate continuous electrical power or autonomous cleaning.
+Vitrobotics explored a different approach to window and façade cleaning: carry the cleaning equipment to the surface with a drone while keeping the operator and water supply on the ground. The aim was to reduce work at height and develop a repeatable cleaning process. Electrical tether power and automated routes were further development goals.
 
 ## From Aeroshine to Vitrobotics
 
-Early documentation uses Aeroshine. Later documentation uses Vitrobotics. The precise rename date has not been reconciled. The proposed commercial model evolved from cleaning services toward leasing, franchising and building-integrated systems. Those plans are part of the project's rationale, not evidence that each service or product was delivered.
+The project began as Aeroshine and later became Vitrobotics. Its commercial concept grew from providing cleaning services to offering leased equipment, franchise operations and systems integrated into buildings. The engineering work focused on the aircraft, cleaning attachments and practical problems encountered during testing.
 
-## Starting platform and test site
+## First aircraft and building tests
 
-Kian identifies the first platform as a DJI Inspire 1 Pro sponsored by Drone Masters Academy, modified for cleaning. He identifies Factory Hammerbrooklyn, the team's headquarters in Hamburg, as the building used for the cleaning tests. Sponsorship and site attribution are recorded from his September 2026 account.
+The first platform was a DJI Inspire 1 Pro sponsored by Drone Masters Academy and modified to carry cleaning equipment. Building tests took place at Factory Hammerbrooklyn, the team's headquarters in Hamburg.
 
-## The engineering emphasis
+The aircraft carried a high-pressure nozzle supplied through a hose from the ground. Testing brought the mechanical details into focus: nozzle position, hose routing, attachment stiffness, rotor protection and resistance to water and corrosion.
 
-Kian describes the project as a progression of builds rather than one aircraft. Topology optimization and generative design were central: exploring structural forms, integrating custom parts, and refining the path from a generated shape to a useful manufactured component.
+## A progression of designs
 
-The surviving archive includes nozzle adapters, hose holders, propeller guards, mounting plates and spool parts. It also includes frame reference assemblies. Their roles and ownership need to be distinguished before describing every file as a team-designed part.
+The project developed through multiple builds and component revisions. Topology optimization and generative design were central to that process: exploring structural forms, integrating attachments and turning generated geometry into printable, usable parts.
 
-## What is still missing
+The design archive includes nozzle adapters, hose holders, segmented propeller guards, mounting plates and spool components. Later work extended to a hexacopter configuration. Its Fusion assembly combines six rotor positions, a central frame, landing legs and branching guards with protective ring sections. Separate nozzle-mount and rotor-guard designs support this configuration.
 
-The original Fusion histories are needed to reconstruct successor generations and their constraints, loads, manufacturing choices and validation. The current operating status of the venture, exact team contributions by generation and final commercial outcome remain undocumented here.
+These models form part of the design history. A CAD revision records a design change; the build and flight records connect it to the physical aircraft. Base-frame references and custom modifications are documented separately.
+
+## What this repository covers
+
+This repository follows the reasoning behind the project, the evolution of its hardware and the lessons from flight and cleaning tests. It brings together the initial Inspire platform, subsequent design work and the move toward more repeatable operation. The remaining documentation work is to connect each aircraft generation with its manufactured parts, test sessions and design decisions.

@@ -1,21 +1,26 @@
 # CAD register
 
-The project archive contains both manufacturing exports and third-party frame references. Fusion 360 is the user-identified source for the original designs, including successor work. Native inspection has now located the Aeroshine folder in the EXLUMINA Fusion hub, under UAVs, and opened the successor hexacopter assembly. Original optimization studies and design ownership are still being reconciled.
+The mechanical work is organised around adapters, guards, mounting hardware and aircraft assemblies. Fusion contains the native designs; the archive also includes manufacturing exports and frame references.
 
-| Family | Surviving archive examples | Documentation status |
+| Family | Design files and revisions | Role |
 |---|---|---|
-| Nozzle adapter | `gd11_s1m1.3mf`, `gd21_v1.3mf`, `gd34.3mf`, MK2 brackets | Export families found; design constraints and revision mapping pending |
-| Hose holder | `Hose_Holder_v2.3mf` | Export found; flown configuration pending |
-| Propeller guards | v1, v2, v2.1; CW/CCW variants | Multiple iterations found; distinguish versions from separate aircraft |
-| Mounting plates | v1, v3, 3.1 and bracket files | Revision names found; actual order/use pending |
-| Spool components | `Spool_Holder_v2.3mf`, `Shaft_v2.3mf` | Files found; use in the flown system pending |
-| Frame references | JMMRC image and Tarot 680 assembly exports | Reference material; original project authorship not assumed |
-| Successor designs | Fusion masters reported by Kian | Native assembly opened; study and build mapping pending |
+| Nozzle adapters | `gd11_s1m1.3mf`, `gd21_v1.3mf`, `gd34.3mf`, MK2 brackets | Attach the cleaning nozzle to the aircraft |
+| Hose holder | `Hose_Holder_v2.3mf` | Support and secure the hose |
+| Propeller guards | v1, v2, v2.1; CW and CCW variants | Guard geometry and assembly development |
+| Mounting hardware | Plates v1, v3 and 3.1; top and bottom brackets | Connect the custom parts to the aircraft |
+| Spool components | `Spool_Holder_v2.3mf`, `Shaft_v2.3mf` | Spool assembly parts |
+| Frame references | JMMRC image and Tarot 680 assembly exports | Reference geometry, kept separate from custom component designs |
+| Hexacopter assembly | `20021-000-01_frame-assembly`, `20021-000-01_frame-assembly_v2` | Six-rotor development branch |
+| Hexacopter attachments | `Hexacopter_Nozzle_Mount_v2.2`, `Hexacopter_Rotor_Guard_v1.0.0` | Nozzle mount and guards for the later layout |
 
-No CAD files are distributed in this initial documentation commit. Before including a design, record its owner, source dependencies, native revision, applicable license, export units, and relationship to a documented prototype. Do not treat a slicer project or mesh as a complete editable parametric design.
-
-## Detailed component records
+## Component stories
 
 - [Nozzle and hose](nozzle-and-hose.md)
 - [Propeller guards](propeller-guards.md)
 - [Successor hexacopter](successor-hexacopter.md)
+
+## Editable files
+
+This repository currently contains documentation and previews. Editable CAD will be added with the applicable license, source attribution, revision and units. Third-party frame geometry will remain clearly attributed and separate from our modifications.
+
+The remaining documentation work is to connect the native studies, manufacturing exports and installed parts for each build. A 3MF mesh alone does not contain the full parametric or optimization history.

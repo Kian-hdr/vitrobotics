@@ -1,31 +1,27 @@
 # Generative design and mechanical engineering
 
-Topology optimization and generative design were a major project focus, according to Kian. The documentation will follow the evolution of parts from functional need through design exploration, manufacturing, installation and field feedback.
+Topology optimization and generative design were central to Vitrobotics. We started with an existing aircraft and developed the parts needed to turn it into a cleaning platform: nozzle adapters, hose holders, propeller guards and their mounting hardware. Later work extended into successor aircraft assemblies.
 
-Read the component case studies: [nozzle and hose integration](nozzle-and-hose.md), [propeller guards](propeller-guards.md), and the [successor hexacopter](successor-hexacopter.md).
+The interesting part was taking a generated shape through printing, assembly and flight. The nozzle had to sit in a useful position. The hose needed to be secured. The guards had to fit around the rotors and remain stable on their mounts. These practical requirements continued to shape the parts after the first design pass.
 
-## Evidence currently available
+## From geometry to hardware
 
-- Several generations of nozzle adapters and hose holders survive as manufacturing exports.
-- Propeller guards appear in v1, v2 and v2.1 folders, with distinct clockwise/counter-clockwise parts and mounting-plate revisions.
-- The historical propeller-guard task records carbon-fibre-containing print material, joined ring/bracket construction and heated inserts. Its checklist combines completed changes with uncompleted refinements.
-- The first flight review records changing nozzle position and redesigning the hose fixation after testing.
-- Later flight notes record guard damage and other repairs. These observations belong beside the design history.
+The adapter designs use branching forms, with separate plates and brackets for integration. Print preparation added another set of choices: material, orientation, supports and layer profile. The saved adapter slicer setup records both the model material and the additional material needed for supports.
 
-## How each design will be documented
+The guards developed through v1, v2 and v2.1 families. Separate CW and CCW versions, segmented rings and revised mounting plates show the work at component and assembly level. Heated inserts and the joining sequence were part of the manufacturing plan.
 
-For each recovered original design, record:
+## Learning from the tests
 
-1. The problem and installed interface.
-2. Preserved geometry, obstacle regions and design space.
-3. Loads, constraints and material assumptions, with their source.
-4. Generated alternatives and the reason for selecting one.
-5. Manufacturing adaptation and changes made after generation.
-6. Prototype revision and the test that used it.
-7. Observed outcome and remaining limitations.
+Flight testing brought attention to details that mattered in use. We changed the nozzle position and hose fixation after the first test. Guard movement on a mount led to changes in fastening. Water exposure, clearance and repairability became part of the mechanical work alongside the geometry.
 
-This is the intended documentation structure, not a claim that every step has already been recovered. No mass reduction, factor of safety, simulation validation or optimization improvement is quantified until the corresponding results are inspected.
+The component stories follow that progression:
 
-## Lessons visible in the historical records
+- [Nozzle and hose integration](nozzle-and-hose.md): positioning the cleaning tool and managing the ground-fed hose.
+- [Propeller guards](propeller-guards.md): segmented geometry, manufacturing and attachment refinement.
+- [Successor hexacopter](successor-hexacopter.md): carrying the component work into a six-rotor assembly.
 
-The design problem included hose resistance, mounting stability, rotor clearance, water exposure and repairability. The early guard's ability to rotate on its mount shows why component geometry and attachment design have to be documented together. Generated geometry alone does not establish a robust assembly.
+## Completing the design record
+
+The original Fusion studies will add the loads, constraints, generated alternatives and selection decisions behind these parts. Matching those studies to manufactured revisions and test photographs is the next step. Quantitative comparisons, such as mass savings or structural margins, belong with those studies and measurements.
+
+The [CAD register](cad-register.md) lists the design families covered here.

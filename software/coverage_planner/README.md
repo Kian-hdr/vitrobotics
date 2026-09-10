@@ -1,6 +1,6 @@
 # Offline facade coverage planner
 
-**New engineering work authored September 11, 2026.** This module was created for this repository. It is not recovered historical flight software, and it has not been flown or connected to aircraft.
+Added in September 2026, this module turns a rectangular façade into a reproducible coverage path. It is separate from the original flight software and has not been connected to an aircraft.
 
 The standard-library Python library creates a deterministic alternating horizontal sweep for a rectangular facade. The result is a geometric study for documentation and design discussion. There is no controller connection, GPS positioning, global coordinate system or executable mission export.
 

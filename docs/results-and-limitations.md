@@ -1,25 +1,33 @@
 # Results, limitations and lessons
 
-## Supported observations
+## Flight and cleaning tests
 
-- The edited Flight 4 video visibly shows an airborne aircraft, hanging hose and water spray directed at building windows and façade.
-- Original raw-video dates support four December 2024 test-session groups.
-- Historical reviews record nozzle-position changes, hose-management issues, guard damage, corrosion and water-system modifications.
-- Multiple CAD revision families survive, and Kian reports additional successor builds.
+The Flight 4 recording shows the aircraft flying beside a building and directing water at its windows and façade through a hose supplied from the ground. The raw media archive contains four test-session groups from December 2024.
 
-## Claims not yet established
+The test programme informed refinements to nozzle position, hose management, guard attachment and water-system integration. The component pages follow that engineering work.
 
-- Exact autopilot software and automated cleaning behavior.
-- Electrical ground-powered flight, continuous endurance or swarm operation.
-- Measured cleaning area, quality, throughput or water consumption.
-- Quantified gains from topology optimization or generative design.
-- Final configuration and flight history of successor aircraft.
-- Current commercial readiness or operating approvals.
+The available records do not provide a measured cleaning rate, water consumption or a repeatable assessment of cleaning quality. No throughput or cost-saving figure is presented here as a test result.
 
-Historical investor materials contain inconsistent throughput and maturity claims. Those figures are not used as measured results here. The paper's future-feature descriptions are not treated as completed capabilities.
+## Design development
 
-## Engineering lessons to preserve
+The CAD archive preserves several revisions of nozzle adapters, guards, mounting plates and related components. The later hexacopter assembly shows a six-rotor layout with branching guards, a central frame and landing legs.
 
-Document attachments together with the parts they carry; connect flight damage to later design changes; distinguish hose load from electrical power; preserve unsuccessful and aborted tests; and record operator intervention alongside automation claims.
+Topology optimization and generative design were used to develop component forms. Quantitative comparisons require the original study settings, load cases, material properties and test results. The repository therefore describes the design approach without assigning a mass-saving percentage or strength improvement.
 
-This repository records historical work. Its incomplete specifications and test notes are not operating instructions or a validated flight envelope.
+## System boundaries
+
+A water hose supplies the cleaning system; an electrical tether supplies the aircraft. The recorded spraying tests establish the former. Continuous ground-powered flight is not documented in these results.
+
+Partial automation belongs to the flight history, but its exact software, flight modes and operator interventions still need to be connected to individual sessions. The repository does not describe an end-to-end autonomous cleaning cycle or coordinated multi-drone cleaning as a completed result.
+
+The later CAD assemblies document design development. Their final manufactured configurations and flight histories are still being added.
+
+## Engineering lessons
+
+- Treat the nozzle, mount and hose as one mechanical system. Nozzle position and hose forces affect the aircraft together.
+- Connect each field observation to the component revision it informs.
+- Include wet storage and corrosion in component selection and maintenance.
+- Record the conditions and operator involvement for each test.
+- Record test conditions with measurements so that results can be compared across aircraft generations.
+
+These historical specifications and test notes do not define an operating procedure or a validated flight envelope.

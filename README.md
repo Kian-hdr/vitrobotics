@@ -1,42 +1,42 @@
 # Vitrobotics
 
-**The engineering story of a drone-based façade-cleaning project, formerly Aeroshine.**
+**Drone-based façade cleaning, from a modified aircraft to custom mechanical design.**
 
 [![Watch Aeroshine’s fourth test flight](https://i.ytimg.com/vi/VmThMd9uGMc/hqdefault.jpg)](https://www.youtube.com/watch?v=VmThMd9uGMc)
 
-**[Watch the flight: façade cleaning at Factory Hammerbrooklyn](https://www.youtube.com/watch?v=VmThMd9uGMc)** · 58 seconds
+**[Watch the flight at Factory Hammerbrooklyn](https://www.youtube.com/watch?v=VmThMd9uGMc)** · 58 seconds
 
-A real flight demonstration of the modified cleaning drone, with water supplied from the ground. Published on the Vitrobotics channel as *Aeroshine 4th Test Flight: Refining Cleaning Precision*.
+Our fourth test-flight video shows the cleaning drone working beside the building, with water supplied from the ground.
 
-Vitrobotics began with a modified DJI Inspire 1 Pro and a practical question: could a drone carry a cleaning system to a building façade and reduce the need for people to work at height?
+## The project
 
-The initial aircraft was sponsored by Drone Masters Academy, according to project founder Kian Konrad Tajbakhsh. The team tested cleaning at its headquarters, Factory Hammerbrooklyn in Hamburg. The project developed beyond a single prototype, with an emphasis on topology optimization, generative design and custom mechanical engineering.
+Vitrobotics began as Aeroshine. We wanted to move the cleaning equipment to the façade while keeping the operator and water supply on the ground.
 
-This repository documents that development: the problem, prototypes, design decisions, physical tests and lessons. It is currently an **incomplete historical engineering record**. It is not a flight-ready build kit or a released autonomous-control system.
+We started with a DJI Inspire 1 Pro sponsored by Drone Masters Academy and modified it for cleaning tests at our headquarters, Factory Hammerbrooklyn in Hamburg. The work extended into custom nozzle mounts, hose attachments, rotor guards and successor aircraft designs. Topology optimization and generative design were central to the mechanical development.
 
-## Start here
+This repository brings together the build story, CAD development, test records and engineering tools.
 
-- [Why the project existed](docs/project-story.md)
-- [System architecture and development stages](docs/architecture.md)
-- [Generative design and mechanical engineering](docs/hardware/design-process.md)
-- [Hardware and CAD register](docs/hardware/cad-register.md)
-- [Flight history](docs/flights/README.md)
-- [Autopilot and software](docs/software.md)
-- [New offline coverage planner](software/coverage_planner/README.md)
-- [Results, limitations and lessons](docs/results-and-limitations.md)
-- [Documentation roadmap](docs/roadmap.md)
-- [Evidence and attribution](docs/sources-and-attribution.md)
+## Explore the work
 
-## What the surviving evidence supports
+| Area | What to explore |
+|---|---|
+| [Project story](docs/project-story.md) | The problem, starting platform and development direction |
+| [Nozzle and hose integration](docs/hardware/nozzle-and-hose.md) | Bringing ground-supplied water to the aircraft |
+| [Propeller guards](docs/hardware/propeller-guards.md) | Generated geometry, segmented construction and attachment design |
+| [Successor hexacopter](docs/hardware/successor-hexacopter.md) | The later six-rotor CAD assembly |
+| [Design process and CAD](docs/hardware/design-process.md) | Design exploration, manufacturing preparation and component families |
+| [Flight and test history](docs/flights/README.md) | December 2024 test sessions and flight footage |
+| [Architecture](docs/architecture.md) | Aircraft, cleaning equipment and ground systems |
+| [Software](docs/software.md) | Route planning and the offline coverage tool |
 
-Original archived video metadata groups the four named test sessions into **4, 15, 19 and 21 December 2024** (camera-metadata dates; clocks were not independently calibrated). The second session's written review says takeoff was aborted. The Flight 4 edited video shows the aircraft airborne, with a hanging hose, spraying the building's windows and façade.
+## Engineering tools
 
-Kian recalls autopilot use through a flight planner. The exact software, automated flight segments and associated session have not yet been recovered. Electrical ground power and swarm operation must not be inferred from the hose or the word “autopilot.”
+The [offline coverage planner](software/coverage_planner/README.md), added in September 2026, generates rectangular façade sweep paths, JSON geometry and an SVG preview. It includes tests for spacing, boundaries, route length and input validation.
 
-Kian also reports successor builds and additional flights. Their configuration and chronology remain to be reconciled with the surviving CAD and media.
+It is a planning tool, not aircraft-control software. It does not model obstacles, tether forces, aircraft dynamics or cleaning effectiveness.
 
-## Scope
+## Documentation scope
 
-The emphasis is hardware and design documentation. Existing control code and third-party firmware are not released here. Editable CAD will be added selectively after checking design ownership, revision and correspondence with the actual builds. Source papers, contracts and private business records remain in the project archive.
+The flight footage, CAD models and planning tools describe different parts of the project. Flight records cover physical tests; CAD views show design development; the coverage planner is a later software addition. The repository does not provide a flight-ready build package or release the project's control code.
 
-Last documentation update: 11 September 2026.
+[Engineering results and limits](docs/results-and-limitations.md) · [Documentation roadmap](docs/roadmap.md) · [Project archive and credits](docs/sources-and-attribution.md)

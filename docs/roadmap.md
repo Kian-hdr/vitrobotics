@@ -1,20 +1,29 @@
 # Documentation roadmap
 
-## Current stage
+The repository is being developed as a history of the project's engineering work: why it was undertaken, how the hardware changed and what the tests taught us.
 
-Initial private documentation repository, based on the surviving archive and Kian's account. The emphasis is the design and build story rather than control-code publication.
+## Aircraft and component history
 
-## Next evidence to recover
+Connect the Inspire-based prototypes and successor builds to their assembly records, photographs and flights. Document nozzle adapters, guards, mounting plates and hose-management components by revision, including the reason for each change.
 
-- Continue inspecting the now-accessible Fusion designs and successor assemblies; recover original optimization studies.
-- Map generated alternatives, manufacturing exports and flown revisions.
-- Reconcile additional flights and the exact autopilot/planner.
-- Review representative raw media for each session and select publishable images.
-- Confirm contributors and design ownership before distributing CAD.
-- Recover measurements with their test conditions, without filling gaps with marketing estimates.
+For the hexacopter, separate the base-frame design from custom additions and show how its nozzle mount and guards developed.
 
-## Before a public visibility change
+## Generative design and manufacturing
 
-Complete the intended narrative, review all included assets and attribution, check the entire Git history for private content, and verify that published links and media work for readers. Keep private papers, identifiers, contracts, proprietary code and third-party firmware outside this repository.
+Add the original Fusion studies, design constraints and manufacturing choices. Relate generated alternatives to the selected geometry, exported parts and physical builds. Include material, print orientation and assembly details where they are available.
 
-The repository remains private during this work. No public release date is set.
+## Flight and cleaning results
+
+Complete the flight chronology beyond the early paper. Link each session to its aircraft configuration, cleaning setup, flight mode and results. Identify the planner and autopilot used for partial automation, including the tasks left to the operator.
+
+Add measurements with their test conditions and document unsuccessful tests as well as successful ones.
+
+## Images and contributions
+
+Select photographs, CAD views and short flight clips that explain the engineering work. Keep renders and planning screenshots clearly labelled. Credit contributors and distinguish original designs from third-party frame references.
+
+## Public release
+
+The repository remains private while the documentation and assets are assembled. Before release, review attribution, distribution rights, links, media and the complete Git history. Private papers, contracts, personal identifiers, proprietary code and third-party firmware remain outside the repository.
+
+No public release date is set.

@@ -1,33 +1,27 @@
-# Propeller guards: geometry, assembly and field feedback
+# Propeller guards
 
-Operating a cleaning aircraft beside a building made rotor clearance and attachment stability part of the mechanical design problem. Vitrobotics explored custom guards around the existing rotors, with separate clockwise and counter-clockwise component families. The guards were one of the project's applications of topology optimization and generative design, which Kian identifies as a major focus of the work.
+Flying a cleaning aircraft beside a building put rotor clearance and attachment stability at the centre of the mechanical design. We developed custom guards with separate clockwise and counter-clockwise versions, using topology optimization and generative design to explore their form.
 
-The surviving record shows more than an outer ring. It includes segmented guard geometry, top and bottom brackets, mounting plates and a manufacturing checklist. Those interfaces matter to understanding how the generated shape became an aircraft attachment.
+The guard was an assembly: an outer ring, branching ribs, mounting brackets and plates. Designing those interfaces was as important as designing the ring itself.
 
-## The surviving design branches
+## Geometry and revisions
 
-The archive contains v1, v2 and v2.1 guard families, with CW and CCW variants. Later families include three-part exports named `Prop_Guard (1).3mf`, `Prop_Guard (2).3mf` and `Prop_Guard (3).3mf`. Bracket and mounting-plate revisions accompany the guard files. These are component revisions, not a count of aircraft or proof that every variant flew.
+The v1, v2 and v2.1 families preserve several iterations of the guards. The later versions use three-part exports: `Prop_Guard (1).3mf`, `Prop_Guard (2).3mf` and `Prop_Guard (3).3mf`, with CW and CCW variants. Top and bottom brackets and mounting-plate revisions sit alongside them.
 
-`Prop_Guard_gd5.2 v11.png` shows a CAD rendering of mirrored CW/CCW guards, three colored segments and organic branching ribs. It records the form and assembly concept, rather than a physical test result. The appearance is consistent with the project's reported design approach, but a rendering cannot recover the optimizer, constraints or structural performance.
+The CAD render `Prop_Guard_gd5.2 v11.png` shows the mirrored guard arrangement, divided into three coloured segments with organic branching ribs. It illustrates how the guard geometry was broken into components for assembly.
 
-An inspected v2 CW `Prop_Guard (1).3mf` package contains BambuStudio 2.1.1 metadata dated 1 December 2024 and multiple component model entries. The package helps preserve the preparation history; its timestamp is not a manufacturing date. The inspected v2.1 CW export identifies the model as “Prop_Guard_CW” and the object as “Prop_Guard (1).” Neither establishes the original design author or a flight assignment.
+## Printing and assembly
 
-## Manufacturing and assembly
+The assembly plan called for GreenTec Pro Carbon Fiber print material, joining the outer ring before the mounting bracket, and M3 heated inserts. One completed geometry change moved the ring **5 mm down**.
 
-The historical guard task specifies GreenTec Pro Carbon Fiber print material, joining the outer ring before the mounting bracket, and M3 heated inserts. It describes the joining operation as welding, without documenting the technique or process parameters. That wording is preserved as a historical instruction rather than expanded into an unverified assembly procedure.
+Further design options included larger top-bracket mounting holes, reshaped connection points using T-Splines, stronger glue, fewer wall lines and reduced infill. These remained proposals in the design notes. They are not the manufacturing settings for a released guard.
 
-The same task marks a **5 mm downward change to the ring** complete. Other refinements remain unchecked: reducing wall lines from four to two, reducing infill from 15% to 5%, enlarging the top-bracket mounting holes, reshaping connection points with T-Splines, and using stronger glue. Although the overall task is marked Done, these individual proposals cannot all be treated as implemented.
+## Refinement at the attachment
 
-The proposed wall and infill reductions show that print configuration was considered alongside shape. The surviving checklist does not establish their effect on weight, stiffness, print time or service life.
+Field testing prompted changes to screw tightness and threadlocked retention at the mount. The mounting interface and rotor clearance remained part of the development work.
 
-## What field use added
+That experience shaped the way we approached the assembly: the ring geometry, bracket fit and retention all needed attention together. A change to one part could affect how the guard sat around the rotor.
 
-The historical paper reports that a guard rotated around its mount during a test and was damaged. It records tightening the screws and applying threadlock as the response. Later test documentation also records guard damage and repairs. These accounts make the attachment interface part of the design history, alongside the branching ribs and ring geometry.
+The revision history still needs the installed photographs and build records alongside each design. The guards have no published impact rating or structural safety factor; this page describes their development rather than a production specification.
 
-The available record does not identify the exact guard revision in each event or demonstrate that the recorded adjustment resolved the issue across later flights. That limits the conclusions, but preserves a useful engineering thread: assembly retention and clearance needed to be reviewed together with the guard's shape.
-
-## Completing the case study
-
-The next step is to match original Fusion studies and manufacturing exports to photographs of installed guards. That would establish which alternatives were selected, which checklist changes reached hardware, and which test observations informed each revision.
-
-No quantitative optimization benefit, impact protection rating or structural safety factor is established here. The case documents a component family that moved through design, assembly planning and field refinement. Named artifacts remain in the private archive; this page does not distribute CAD or provide a validated protective-device specification.
+The later six-rotor design carries the guard work into a different layout. See the [successor hexacopter](successor-hexacopter.md).

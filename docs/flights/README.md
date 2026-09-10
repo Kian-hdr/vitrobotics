@@ -1,38 +1,34 @@
 # Flight and test history
 
-This is a session register, not a count of successful flights. Dates below combine original media metadata with written test records. Camera clocks were not independently calibrated and timestamps from different devices can differ by approximately an hour.
+The December 2024 sessions took the modified Inspire cleaning system from initial water-spray tests to work beside the façade at Factory Hammerbrooklyn.
 
-| Session | Best-supported date | Evidence and result |
+| Session | Date | Focus |
 |---|---|---|
-| Flight Test 1 | 4 December 2024 | Notion mission date and original video dates agree. Review describes pressure-water flight, nozzle repositioning, hose resistance and guard damage. |
-| Flight Test 2 | 15 December 2024 | Notion and media dates agree. Written review says no takeoff because of wind. Record as an aborted test with ground-system observations. |
-| Flight Test 3 | 19 December 2024 | Notion and media dates agree. Written post-flight observations exist despite an unchanged “Not started” status. |
-| Flight Test 4 | 21 December 2024 | Original video metadata supports this date; Notion mission date is blank. Edited video visibly shows building spraying. Written review records height-holding difficulty, emergency landings and damage. |
-| Additional sessions | Unresolved | Kian reports additional flights and autopilot use. Do not assign dates or control modes without matching evidence. |
+| Test 1 | 4 December 2024 | Pressure-water flight, nozzle position and hose integration |
+| Test 2 | 15 December 2024 | Ground-system checks; takeoff was held because of wind |
+| Test 3 | 19 December 2024 | Daylight flight and stability observations |
+| Test 4 | 21 December 2024 | Building-side cleaning tests, height control and hose handling |
 
-## Later workshop photography
+These are test sessions rather than a count of individual sorties. Dates come from the original camera files, alongside the written session records. Camera clocks differ by roughly an hour, so the register uses calendar dates rather than exact UTC times. One discarded clip in the Flight 4 folder was recorded on 19 December and belongs with that earlier date.
 
-Twenty photo files, including copies and crops, carry 23 February 2025 EXIF dates. A representative original shows a modified drone held in a workshop. This documents later hardware photography, not a confirmed flight.
+## Fourth test flight
 
-## Archive exception
+[Watch the 58-second flight video](https://www.youtube.com/watch?v=VmThMd9uGMc).
 
-`Flight_4/Discarded/DJI_0019.MP4` carries a 19 December 2024 date. Folder membership therefore cannot establish a flight date. Edited exports made on later days are not new flights.
+The sequence shows the aircraft airborne beside the building, spraying the windows and façade through a ground-supplied hose. It was published on the Vitrobotics channel on 1 January 2025; that is the publication date, not the flight date.
 
-## What each complete session report needs
+![Frames from the fourth test-flight edit](../../media/flight-4-sampled-frames.jpg)
 
-- Date and date evidence, including clock/timezone uncertainty.
-- Aircraft, component revisions, software and control mode.
-- Objective, setup and observed outcome.
-- Pilot interventions, aborted segments and damage.
-- Original media/log identifiers.
-- Lessons and subsequent changes.
+The footage demonstrates the physical cleaning setup in flight. It does not measure cleaning throughput or show which control modes were active.
 
-The four original written records are partial. Their placeholder schedules and incorrect wind units have not been converted into operational limits. Reported damage causes remain hypotheses unless independently resolved.
+## Engineering feedback
 
-## Watch the fourth test flight
+The early reviews informed nozzle placement, hose fixation and guard attachment. Height control and hose handling remained development topics during the fourth session. The footage is a prototype demonstration, not a completed endurance or reliability qualification.
 
-[Watch the published 58-second video](https://www.youtube.com/watch?v=VmThMd9uGMc), supplied by Kian as the lead project demonstration. The Vitrobotics channel published it on 1 January 2025. That publication date is separate from the original-camera date reconstruction above.
+The [nozzle](../hardware/nozzle-and-hose.md) and [guard](../hardware/propeller-guards.md) case studies follow the associated mechanical development.
 
-![Sampled frames from the archived Flight 4 edit](../../media/flight-4-sampled-frames.jpg)
+## Later hardware work
 
-These sampled frames show spraying in flight. They do not establish the control mode, measured cleaning throughput or a complete flight outcome.
+Photographs dated 23 February 2025 show workshop work on the modified drone. The Fusion archive continues into the [successor hexacopter](../hardware/successor-hexacopter.md) and later component revisions. Those design and workshop dates are separate from flight dates.
+
+Additional flight records and the matching autopilot configurations are part of the continuing documentation work.

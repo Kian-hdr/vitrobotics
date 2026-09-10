@@ -1,32 +1,30 @@
-# Evidence and attribution
+# Project archive and credits
 
-## Evidence types
+## Project material
 
-- **Observed artifact:** something directly visible in inspected media or file metadata.
-- **Historical record:** a dated report or task, which may be incomplete or inaccurate.
-- **User account:** Kian's recollection, attributed explicitly.
-- **Proposal:** a design or commercial intention without completed-test evidence.
-- **Unresolved:** a detail that has not been recovered.
+The documentation draws on the project's flight records, original camera files, component designs and manufacturing preparation. The original archive remains separate from this repository.
 
-## Source register
+| Material | Project record |
+|---|---|
+| [Fourth test-flight video](https://www.youtube.com/watch?v=VmThMd9uGMc) | Published by the Vitrobotics channel on 1 January 2025 |
+| December 2024 test records | Four session reports and their original media |
+| Aeroshine paper | Early project rationale and architecture, internal version 1.2.1, January 2025 |
+| Component exports | Nozzle adapters, hose holders, guards, brackets and mounting plates |
+| Fusion designs | EXLUMINA / UAVs / Aeroshine, including the successor hexacopter branch |
+| Manufacturing preparation | Slicer views, print settings and assembly notes |
 
-| Source | Use | Limit |
-|---|---|---|
-| Aeroshine flight-test records 1–4 | Objectives, reported results, damage | Incomplete fields and stale statuses |
-| Original `Flight_Data` videos | Capture-date groups | Camera clocks/timezones not independently verified |
-| [Published fourth-flight video](https://www.youtube.com/watch?v=VmThMd9uGMc) | Public demonstration supplied by Kian; Vitrobotics channel, published 1 January 2025 | Edited 58-second video; description claims are not substituted for test records |
-| `Aeroshine_Flight_4_v2.0.0.mp4` | Visible building-spraying demonstration | Edited sequence; does not prove autonomy or throughput |
-| Aeroshine paper, internal version 1.2.1, 2 January 2025 | Historical motivation and early architecture | Mixed present/future claims; confidential original not distributed |
-| Aeroshine and Vitrobotics parts lists | Hardware candidates and recorded procurement status | Not complete as-built bills of materials |
-| Drive CAD export families | Surviving part iterations | Native history, ownership and flown revision mapping pending |
-| Kian's account, 11 September 2026 | Sponsored initial platform, headquarters tests, successor builds, design emphasis and recalled autopilot | Exact dates and software not recalled |
+Contemporary papers and plans describe the project's direction at the time. The engineering pages distinguish implemented work from design concepts and later additions.
 
-Private source records stay in the project archive. Their access permissions are not changed by this repository.
+## Credits
 
-## Attribution
+**Kian Konrad Tajbakhsh** founded the project and contributed to its engineering development.
 
-Project: Vitrobotics, formerly Aeroshine. Kian Konrad Tajbakhsh is the founder and engineering contributor supplying the project history. Exact collaborator contributions will be added by component or workstream as recovered.
+**Drone Masters Academy** sponsored the DJI Inspire 1 Pro used as the starting platform. Testing took place at **Factory Hammerbrooklyn**, our headquarters in Hamburg.
 
-Drone Masters Academy is credited as sponsor of the original DJI Inspire 1 Pro based on Kian's account. That attribution does not imply endorsement of this repository or later designs.
+The aircraft platform, vendor components and reference airframe geometry are distinct from the project's custom cleaning attachments and design work. Third-party trademarks and materials belong to their respective owners.
 
-Third-party aircraft, software, frame references and trademarks remain attributable to their respective owners. No open-source license is granted to unreviewed CAD, private code or third-party firmware. An explicit licensing decision for selected original releases will be made after the ownership review.
+## Files and reuse
+
+This repository does not distribute the project's private control code, supplier firmware, contracts or confidential business documents. Editable CAD releases need component-level attribution and a clear licensing decision. No license for third-party geometry is implied by a design preview.
+
+The offline coverage planner was added in September 2026. It is a separate software contribution and was not used for the original flight tests.
