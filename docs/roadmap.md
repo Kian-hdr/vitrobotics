@@ -14,7 +14,7 @@ Add the original Fusion studies, design constraints and manufacturing choices. R
 
 ## Flight and cleaning results
 
-Complete the flight chronology beyond the early paper. Link each session to its aircraft configuration, cleaning setup, flight mode and results. Identify the planner and autopilot used for partial automation, including the tasks left to the operator.
+Connect the surviving flight sessions to their aircraft configuration, cleaning setup and results. The original control software and saved missions are no longer part of the archive; the repository documents autopilot-assisted testing without reconstructing a flight-control implementation from memory. Future control integration is separate from the historical case study.
 
 Add measurements with their test conditions and document unsuccessful tests as well as successful ones.
 

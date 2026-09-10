@@ -18,7 +18,7 @@ Topology optimization and generative design were used to develop component forms
 
 A water hose supplies the cleaning system; an electrical tether supplies the aircraft. The recorded spraying tests establish the former. Continuous ground-powered flight is not documented in these results.
 
-Partial automation belongs to the flight history, but its exact software, flight modes and operator interventions still need to be connected to individual sessions. The repository does not describe an end-to-end autonomous cleaning cycle or coordinated multi-drone cleaning as a completed result.
+Prototype work included autopilot-assisted testing. The surviving archive does not contain the original control implementation or saved missions, and the repository does not reproduce that control stack. An end-to-end autonomous cleaning cycle and coordinated multi-drone cleaning are not presented as completed results.
 
 The later CAD assemblies document design development. Their final manufactured configurations and flight histories are still being added.
 
