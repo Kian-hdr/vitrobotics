@@ -28,3 +28,11 @@ Twenty photo files, including copies and crops, carry 23 February 2025 EXIF date
 - Lessons and subsequent changes.
 
 The four original written records are partial. Their placeholder schedules and incorrect wind units have not been converted into operational limits. Reported damage causes remain hypotheses unless independently resolved.
+
+## Watch the fourth test flight
+
+[Watch the published 58-second video](https://www.youtube.com/watch?v=VmThMd9uGMc), supplied by Kian as the lead project demonstration. The Vitrobotics channel published it on 1 January 2025. That publication date is separate from the original-camera date reconstruction above.
+
+![Sampled frames from the archived Flight 4 edit](../../media/flight-4-sampled-frames.jpg)
+
+These sampled frames show spraying in flight. They do not establish the control mode, measured cleaning throughput or a complete flight outcome.

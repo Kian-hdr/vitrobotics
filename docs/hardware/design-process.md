@@ -2,6 +2,8 @@
 
 Topology optimization and generative design were a major project focus, according to Kian. The documentation will follow the evolution of parts from functional need through design exploration, manufacturing, installation and field feedback.
 
+Read the component case studies: [nozzle and hose integration](nozzle-and-hose.md), [propeller guards](propeller-guards.md), and the [successor hexacopter](successor-hexacopter.md).
+
 ## Evidence currently available
 
 - Several generations of nozzle adapters and hose holders survive as manufacturing exports.

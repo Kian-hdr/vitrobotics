@@ -1,6 +1,6 @@
 # CAD register
 
-The project archive contains both manufacturing exports and third-party frame references. Fusion 360 is the user-identified source for the original designs, including successor work. Native design histories are still being recovered.
+The project archive contains both manufacturing exports and third-party frame references. Fusion 360 is the user-identified source for the original designs, including successor work. Native inspection has now located the Aeroshine folder in the EXLUMINA Fusion hub, under UAVs, and opened the successor hexacopter assembly. Original optimization studies and design ownership are still being reconciled.
 
 | Family | Surviving archive examples | Documentation status |
 |---|---|---|
@@ -10,6 +10,12 @@ The project archive contains both manufacturing exports and third-party frame re
 | Mounting plates | v1, v3, 3.1 and bracket files | Revision names found; actual order/use pending |
 | Spool components | `Spool_Holder_v2.3mf`, `Shaft_v2.3mf` | Files found; use in the flown system pending |
 | Frame references | JMMRC image and Tarot 680 assembly exports | Reference material; original project authorship not assumed |
-| Successor designs | Fusion masters reported by Kian | Native inspection pending sign-in |
+| Successor designs | Fusion masters reported by Kian | Native assembly opened; study and build mapping pending |
 
 No CAD files are distributed in this initial documentation commit. Before including a design, record its owner, source dependencies, native revision, applicable license, export units, and relationship to a documented prototype. Do not treat a slicer project or mesh as a complete editable parametric design.
+
+## Detailed component records
+
+- [Nozzle and hose](nozzle-and-hose.md)
+- [Propeller guards](propeller-guards.md)
+- [Successor hexacopter](successor-hexacopter.md)

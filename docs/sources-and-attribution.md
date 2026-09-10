@@ -14,6 +14,7 @@
 |---|---|---|
 | Aeroshine flight-test records 1–4 | Objectives, reported results, damage | Incomplete fields and stale statuses |
 | Original `Flight_Data` videos | Capture-date groups | Camera clocks/timezones not independently verified |
+| [Published fourth-flight video](https://www.youtube.com/watch?v=VmThMd9uGMc) | Public demonstration supplied by Kian; Vitrobotics channel, published 1 January 2025 | Edited 58-second video; description claims are not substituted for test records |
 | `Aeroshine_Flight_4_v2.0.0.mp4` | Visible building-spraying demonstration | Edited sequence; does not prove autonomy or throughput |
 | Aeroshine paper, internal version 1.2.1, 2 January 2025 | Historical motivation and early architecture | Mixed present/future claims; confidential original not distributed |
 | Aeroshine and Vitrobotics parts lists | Hardware candidates and recorded procurement status | Not complete as-built bills of materials |

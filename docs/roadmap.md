@@ -6,7 +6,7 @@ Initial private documentation repository, based on the surviving archive and Kia
 
 ## Next evidence to recover
 
-- Inspect original Fusion designs and successor assemblies after Autodesk sign-in.
+- Continue inspecting the now-accessible Fusion designs and successor assemblies; recover original optimization studies.
 - Map generated alternatives, manufacturing exports and flown revisions.
 - Reconcile additional flights and the exact autopilot/planner.
 - Review representative raw media for each session and select publishable images.

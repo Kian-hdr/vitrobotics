@@ -2,15 +2,17 @@
 
 **The engineering story of a drone-based façade-cleaning project, formerly Aeroshine.**
 
+[![Watch Aeroshine’s fourth test flight](https://i.ytimg.com/vi/VmThMd9uGMc/hqdefault.jpg)](https://www.youtube.com/watch?v=VmThMd9uGMc)
+
+**[Watch the flight: façade cleaning at Factory Hammerbrooklyn](https://www.youtube.com/watch?v=VmThMd9uGMc)** · 58 seconds
+
+A real flight demonstration of the modified cleaning drone, with water supplied from the ground. Published on the Vitrobotics channel as *Aeroshine 4th Test Flight: Refining Cleaning Precision*.
+
 Vitrobotics began with a modified DJI Inspire 1 Pro and a practical question: could a drone carry a cleaning system to a building façade and reduce the need for people to work at height?
 
 The initial aircraft was sponsored by Drone Masters Academy, according to project founder Kian Konrad Tajbakhsh. The team tested cleaning at its headquarters, Factory Hammerbrooklyn in Hamburg. The project developed beyond a single prototype, with an emphasis on topology optimization, generative design and custom mechanical engineering.
 
 This repository documents that development: the problem, prototypes, design decisions, physical tests and lessons. It is currently an **incomplete historical engineering record**. It is not a flight-ready build kit or a released autonomous-control system.
-
-![Sampled frames showing the cleaning prototype spraying a building façade](media/flight-4-sampled-frames.jpg)
-
-*Frames sampled from the archived Flight 4 edit. The sequence shows spraying in flight; it does not establish the control mode or cleaning performance.*
 
 ## Start here
 
@@ -20,6 +22,7 @@ This repository documents that development: the problem, prototypes, design deci
 - [Hardware and CAD register](docs/hardware/cad-register.md)
 - [Flight history](docs/flights/README.md)
 - [Autopilot and software](docs/software.md)
+- [New offline coverage planner](software/coverage_planner/README.md)
 - [Results, limitations and lessons](docs/results-and-limitations.md)
 - [Documentation roadmap](docs/roadmap.md)
 - [Evidence and attribution](docs/sources-and-attribution.md)

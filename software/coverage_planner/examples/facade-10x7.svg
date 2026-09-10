@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 800 640" role="img" aria-labelledby="title desc">
+<title id="title">Offline facade coverage path</title>
+<desc id="desc">Front view in x and z. All points at y=3 metres. Alternating horizontal sweeps, bottom to top. Conceptual geometry only.</desc>
+<rect width="800" height="640" fill="#f6f8fa"/>
+<g font-family="system-ui, sans-serif" fill="#172b4d">
+<text x="32" y="35" font-size="22">Offline facade coverage geometry</text>
+<text x="32" y="59" font-size="13">NEW WORK · 2026-09-11 · Not an aircraft mission</text>
+<rect x="85.714" y="80.000" width="628.571" height="440.000" fill="#e8eef5" stroke="#687888"/>
+<polyline points="85.714,520.000 714.286,520.000 714.286,410.000 85.714,410.000 85.714,300.000 714.286,300.000 714.286,190.000 85.714,190.000 85.714,80.000 714.286,80.000" fill="none" stroke="#0969da" stroke-width="2"/>
+<circle cx="85.714" cy="520.000" r="5" fill="#198754"/>
+<circle cx="714.286" cy="80.000" r="5" fill="#d1242f"/>
+<text x="32" y="552" font-size="14">Facade 10 × 7 m · standoff 3 m · 5 rows</text>
+<text x="32" y="576" font-size="14">Path 57.000 m · ideal constant-speed time 114.000 s</text>
+<text x="32" y="600" font-size="12">Green: start · Red: end · x → · z ↑ · y points out of facade</text>
+<text x="32" y="622" font-size="12">No obstacle, tether, wind, turn-time, rotor-envelope or cleaning-performance model.</text>
+</g></svg>
