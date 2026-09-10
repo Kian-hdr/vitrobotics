@@ -31,4 +31,4 @@ The [nozzle](../hardware/nozzle-and-hose.md) and [guard](../hardware/propeller-g
 
 Photographs dated 23 February 2025 show workshop work on the modified drone. The Fusion archive continues into the [successor hexacopter](../hardware/successor-hexacopter.md) and later component revisions. Those design and workshop dates are separate from flight dates.
 
-Additional flight records and the matching autopilot configurations are part of the continuing documentation work.
+The original control implementation and saved missions are not available in the archive. The [software page](../software.md) describes the historical scope and the separate coverage planner added in 2026.

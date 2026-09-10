@@ -2,10 +2,6 @@
 
 The first cleaning prototype used a modified quadcopter. Later development included a six-rotor layout with dedicated nozzle-mount and rotor-guard designs. This extended the mechanical work beyond adapting the original Inspire platform.
 
-![Fusion CAD view of the six-rotor development assembly](../../media/hexacopter-v2-cad.png)
-
-*The `20021-000-01_frame-assembly_v2` CAD model, with six rotor positions, branching guards and landing legs.*
-
 ## Bringing the parts into one assembly
 
 The hexacopter model brings a central frame, six rotor positions, guards and landing legs into one layout. The guard structures combine outer ring sections with branching internal ribs around each rotor position.

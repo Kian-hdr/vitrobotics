@@ -25,6 +25,6 @@ The aircraft platform, vendor components and reference airframe geometry are dis
 
 ## Files and reuse
 
-This repository does not distribute the project's private control code, supplier firmware, contracts or confidential business documents. Editable CAD releases need component-level attribution and a clear licensing decision. No license for third-party geometry is implied by a design preview.
+The original control implementation and saved missions are not available in the archive. Supplier firmware, contracts and confidential business documents are not distributed here. Editable CAD releases need component-level attribution and a clear licensing decision. No license for third-party geometry is implied by a design preview.
 
 The offline coverage planner was added in September 2026. It is a separate software contribution and was not used for the original flight tests.
