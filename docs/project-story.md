@@ -1,6 +1,6 @@
 # Why Vitrobotics existed
 
-Vitrobotics explored a different approach to window and façade cleaning: carry the cleaning equipment to the surface with a drone while keeping the operator and water supply on the ground. The aim was to reduce work at height and develop a repeatable cleaning process. Electrical tether power and automated routes were further development goals.
+Vitrobotics explored a different approach to window and façade cleaning: carry the cleaning equipment to the surface with a drone while keeping the operator and water supply on the ground. The aim was to reduce work at height and develop a repeatable cleaning process. Electrical tether power and automated routes were further development directions. The ground-power work reached ground tests and limited hovering, with full-flight testing limited by the available cable length.
 
 ## From Aeroshine to Vitrobotics
 

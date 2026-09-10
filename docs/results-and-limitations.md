@@ -16,7 +16,7 @@ Topology optimization and generative design were used to develop component forms
 
 ## System boundaries
 
-A water hose supplies the cleaning system; an electrical tether supplies the aircraft. The recorded spraying tests establish the former. Continuous ground-powered flight is not documented in these results.
+A water hose supplies the cleaning system; an electrical tether supplies the aircraft. In the separate [ground-power workstream](hardware/ground-power.md), we carried out ground tests and limited hovering using ground-side and onboard power conversion. Full-flight tether testing was not completed because the available cable was too short. No sustained-flight endurance or measured system-efficiency result is presented here.
 
 Prototype work included autopilot-assisted testing. The surviving archive does not contain the original control implementation or saved missions, and the repository does not reproduce that control stack. An end-to-end autonomous cleaning cycle and coordinated multi-drone cleaning are not presented as completed results.
 

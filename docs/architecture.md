@@ -33,6 +33,8 @@ Later parts lists explored an M400-based setup with a tether supply and commerci
 
 ## Automation and endurance
 
-The project explored route planning, electrical ground power and multi-drone coordination as development directions. The documented physical demonstration here is the water-supplied cleaning setup. Electrical tether operation, an end-to-end automated cleaning sequence and coordinated multi-drone operation are outside the demonstrated scope of this repository.
+Electrical ground power progressed through ground tests and limited hovering. The system converted AC to DC on the ground, transmitted power at higher voltage and lower current through the cable, then converted it to lower-voltage, higher-current DC at the aircraft. Full-flight tether testing was not completed because the available cable was too short. See [power over ground](hardware/ground-power.md) for the conversion chain and test scope.
+
+An end-to-end automated cleaning sequence and coordinated multi-drone operation are outside the demonstrated scope of this repository.
 
 The [software page](software.md) separates historical planning material from the offline coverage planner added in September 2026.

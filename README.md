@@ -27,6 +27,7 @@ This repository brings together the build story, CAD development, test records a
 | [Design process and CAD](docs/hardware/design-process.md) | Design exploration, manufacturing preparation and component families |
 | [Component geometry](hardware/inspection/README.md) | STL inspection exports of the nozzle adapter and guard component |
 | [Flight and test history](docs/flights/README.md) | December 2024 test sessions and flight footage |
+| [Ground power](docs/hardware/ground-power.md) | Power conversion, cable transmission and ground/hover testing |
 | [Architecture](docs/architecture.md) | Aircraft, cleaning equipment and ground systems |
 | [Software](docs/software.md) | Route planning and the offline coverage tool |
 

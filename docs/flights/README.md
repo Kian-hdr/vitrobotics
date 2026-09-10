@@ -32,3 +32,7 @@ The [nozzle](../hardware/nozzle-and-hose.md) and [guard](../hardware/propeller-g
 Workshop photographs dated 23 February 2025 show the guarded quadcopter together with a separate six-motor platform. The [successor page](../hardware/successor-hexacopter.md) places that physical build alongside the later CAD development. Those workshop and design dates are separate from flight dates.
 
 The original control implementation and saved missions are not available in the archive. The [software page](../software.md) describes the historical scope and the separate coverage planner added in 2026.
+
+## Ground-powered test work
+
+The project also included multiple ground tests and limited hovering with an electrical ground-power system. Those tests are not assigned to the dated sessions above. Full-flight tether testing remained unfinished because the available cable was too short. See [power over ground](../hardware/ground-power.md).
