@@ -25,3 +25,9 @@ The component stories follow that progression:
 The original Fusion studies will add the loads, constraints, generated alternatives and selection decisions behind these parts. Matching those studies to manufactured revisions and test photographs is the next step. Quantitative comparisons, such as mass savings or structural margins, belong with those studies and measurements.
 
 The [CAD register](cad-register.md) lists the design families covered here.
+
+## Component development on the aircraft
+
+December 2024 workshop photographs show branching guards installed on the Inspire platform, followed by the complete guarded aircraft with its projecting cleaning nozzle. Later views show the segmented guard with Exlumina and Aeroshine lettering. These photographs connect the component work to an assembled aircraft, while the STL files preserve individual design geometries.
+
+The [February 2025 workshop photograph](successor-hexacopter.md) shows that aircraft beside a separate six-motor development platform. Matching a particular exported part to a particular installation requires more than a similar outline, so the component revision names and photographed build states remain distinct.

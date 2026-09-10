@@ -2,6 +2,16 @@
 
 The first cleaning prototype used a modified quadcopter. Later development included a six-rotor layout with dedicated nozzle-mount and rotor-guard designs. This extended the mechanical work beyond adapting the original Inspire platform.
 
+## Two physical platforms
+
+![Guarded quadcopter and six-motor prototype together in the workshop](../../media/workshop-prototypes-2025-02-23.jpg)
+
+*The modified quadcopter and a separate six-motor platform in the workshop, 23 February 2025.*
+
+The six-motor build uses an exposed central plate, electronics, long arms and mixed red and dark propellers. The photograph shows it alongside the guarded Inspire-based aircraft. It establishes a physical development platform, separate from the later guarded CAD configuration.
+
+The recorded building-cleaning flights belong to the Inspire-based prototype. This workshop photograph does not establish a flight or cleaning result for the six-motor platform.
+
 ## Bringing the parts into one assembly
 
 The hexacopter model brings a central frame, six rotor positions, guards and landing legs into one layout. The guard structures combine outer ring sections with branching internal ribs around each rotor position.
@@ -19,7 +29,7 @@ The dates describe the design files. The wider CAD work also includes revised ar
 
 ## Connecting the design to the builds
 
-We built several successors during the project. This page currently covers the hexacopter CAD branch; its physical build configuration and test history will be added alongside installation photographs and build records.
+The February workshop photographs and the later Fusion files document different stages of the six-rotor work. The photographed platform has exposed rotors; the later CAD branch adds the branching guard layout and a dedicated nozzle-mount design. The exact installation sequence between those states is not documented here.
 
 The archive includes Tarot 680 frame references as well as custom attachments. The editable release needs to distinguish the base geometry from our modifications and carry the appropriate attribution. The original studies will complete the explanation of the guard shapes, their loads and the alternatives considered.
 
