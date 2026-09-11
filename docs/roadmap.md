@@ -22,8 +22,8 @@ Add measurements with their test conditions and document unsuccessful tests as w
 
 Select photographs, CAD views and short flight clips that explain the engineering work. Keep renders and planning screenshots clearly labelled. Credit contributors and distinguish original designs from third-party frame references.
 
-## Public release
+## Publication and reuse
 
-The repository remains private while the documentation and assets are assembled. Before release, review attribution, distribution rights, links, media and the complete Git history. Private papers, contracts, personal identifiers, proprietary code and third-party firmware remain outside the repository.
+This repository is a public engineering archive. Private papers, contracts, personal identifiers, proprietary code and third-party firmware remain outside it. New contributions must preserve those boundaries and the distinction between original component designs and third-party references.
 
-No public release date is set.
+No open-source or open-hardware license has been assigned. See [files and reuse](sources-and-attribution.md#files-and-reuse).

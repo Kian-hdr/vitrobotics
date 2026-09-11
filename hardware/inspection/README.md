@@ -22,4 +22,4 @@ The dimensions above are the meshes' axis-aligned bounds, not manufacturing tole
 
 These are geometry files for inspection and comparison. The meshes do not contain a parametric timeline, generative study, material properties, load cases or print setup. The [gd34 study documentation](../../docs/hardware/gd34-study.md) records the linked original design inputs separately. They are not a released manufacturing specification or a flight-qualified component package.
 
-The reference airframe is not included. Public distribution terms for the component files will be settled before the repository's public release.
+The reference airframe is not included. The component files are published for inspection; no open-hardware license has been assigned. See [files and reuse](../../docs/sources-and-attribution.md#files-and-reuse).

@@ -31,6 +31,6 @@ The dates describe the design files. The wider CAD work also includes revised ar
 
 The February workshop photographs and the later Fusion files document different stages of the six-rotor work. The photographed platform has exposed rotors; the later CAD branch adds the branching guard layout and a dedicated nozzle-mount design. The exact installation sequence between those states is not documented here.
 
-The archive includes Tarot 680 frame references as well as custom attachments. The editable release needs to distinguish the base geometry from our modifications and carry the appropriate attribution. The original studies will complete the explanation of the guard shapes, their loads and the alternatives considered.
+The archive includes Tarot 680 frame references as well as custom attachments. The third-party base-frame files are excluded from this repository; custom component exports are documented separately. The original hexacopter guard studies remain a future addition, distinct from the recovered Inspire guard study described on the propeller-guard page.
 
 See the [nozzle and hose](nozzle-and-hose.md) and [propeller-guard](propeller-guards.md) pages for the component development that preceded this layout.

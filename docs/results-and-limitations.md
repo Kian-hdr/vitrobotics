@@ -12,7 +12,7 @@ The available records do not provide a measured cleaning rate, water consumption
 
 The CAD archive preserves several revisions of nozzle adapters, guards, mounting plates and related components. The later hexacopter assembly shows a six-rotor layout with branching guards, a central frame and landing legs.
 
-Topology optimization and generative design were used to develop component forms. Quantitative comparisons require the original study settings, load cases, material properties and test results. The repository therefore describes the design approach without assigning a mass-saving percentage or strength improvement.
+Topology optimization and generative design were used to develop component forms. The recovered adapter and guard studies document original geometry assignments, loads, material choices and optimization targets. Quantitative comparisons still require outcome metrics and corresponding physical test results. The repository therefore describes the design approach without assigning a mass-saving percentage or strength improvement.
 
 ## System boundaries
 
