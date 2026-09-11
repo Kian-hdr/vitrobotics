@@ -8,7 +8,13 @@ The nozzle adapter had a straightforward job: position the cleaning tool beside 
 
 We explored branching adapter shapes through topology optimization and generative design, then prepared them for additive manufacturing. The design files include `gd11_s1m1.3mf`, `gd21_v1.3mf` and `gd34.3mf`. Separate parts include `top_plate.3mf`, `Hose_Holder_v2.3mf`, and the MK2 brackets `Bracket_1.3mf` and `Bracket_2.3mf`.
 
-These files cover the nozzle attachment and hose support as separate component families. The original Fusion studies will add the design constraints and the reasons for selecting particular alternatives; the current documentation covers the exported geometry and print preparation.
+These files cover the nozzle attachment and hose support as separate component families. **gd34 is the latest generated adapter design in this project.** The earlier gd11 and gd21 files preserve previous alternatives.
+
+![Latest generated nozzle adapter, gd34, opened in Fusion](../../media/nozzle-adapter-gd34.png)
+
+*The original gd34 design opened in Fusion. The branching body connects the mounting interfaces while leaving space around the cleaning equipment.*
+
+The native gd34 file links directly to **Study 34 – Structural Component** in the original `DJI_Mount_v3` generative project. Its [study record](gd34-study.md) explains the preserved interfaces, obstacles, material and loading setup. The [geometry package](../../hardware/inspection/README.md) provides the latest mesh alongside the earlier gd11 design.
 
 ## Preparing the adapter for printing
 

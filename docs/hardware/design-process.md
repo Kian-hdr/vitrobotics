@@ -22,7 +22,7 @@ The component stories follow that progression:
 
 ## Completing the design record
 
-The original Fusion studies will add the loads, constraints, generated alternatives and selection decisions behind these parts. Matching those studies to manufactured revisions and test photographs is the next step. Quantitative comparisons, such as mass savings or structural margins, belong with those studies and measurements.
+The [gd34 study record](gd34-study.md) now connects the latest adapter to its original preserved interfaces, obstacle bodies, structural inputs, Nylon 12 material and mass-minimization objective. Matching study outcomes to manufactured revisions and test photographs remains the next step. Quantitative comparisons, such as mass savings or structural margins, belong with the outcome records and measurements.
 
 The [CAD register](cad-register.md) lists the design families covered here.
 

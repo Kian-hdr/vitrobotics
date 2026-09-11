@@ -10,7 +10,7 @@ For the hexacopter, separate the base-frame design from custom additions and sho
 
 ## Generative design and manufacturing
 
-Add the original Fusion studies, design constraints and manufacturing choices. Relate generated alternatives to the selected geometry, exported parts and physical builds. Include material, print orientation and assembly details where they are available.
+The [gd34 adapter study](hardware/gd34-study.md) now documents original geometry assignments, loads, material and optimization objective. The [guard study](hardware/propeller-guards.md#the-original-generative-study) also links saved geometry to its original setup. Recover outcome metrics and manufacturing choices to extend these records. Relate generated alternatives to the selected geometry, exported parts and physical builds. Include material, print orientation and assembly details where they are available.
 
 ## Flight and cleaning results
 

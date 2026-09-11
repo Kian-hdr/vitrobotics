@@ -25,7 +25,7 @@ This repository brings together the build story, CAD development, test records a
 | [Propeller guards](docs/hardware/propeller-guards.md) | Generated geometry, segmented construction and attachment design |
 | [Successor hexacopter](docs/hardware/successor-hexacopter.md) | The later six-rotor CAD assembly |
 | [Design process and CAD](docs/hardware/design-process.md) | Design exploration, manufacturing preparation and component families |
-| [Component geometry](hardware/inspection/README.md) | STL inspection exports of the nozzle adapter and guard component |
+| [Component geometry](hardware/inspection/README.md) | Latest gd34 adapter, earlier gd11 and guard geometry |
 | [Flight and test history](docs/flights/README.md) | December 2024 test sessions and flight footage |
 | [Ground power](docs/hardware/ground-power.md) | Power conversion, cable transmission and ground/hover testing |
 | [Architecture](docs/architecture.md) | Aircraft, cleaning equipment and ground systems |

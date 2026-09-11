@@ -21,7 +21,7 @@ The mechanical work is organised around adapters, guards, mounting hardware and 
 
 ## Geometry files
 
-The [component geometry folder](../../hardware/inspection/README.md) contains STL inspection exports of the generated nozzle adapter and one clockwise guard component. Coordinates are in millimetres. Native editable histories and optimization studies remain separate from these mesh exports.
+The [component geometry folder](../../hardware/inspection/README.md) contains STL inspection exports of the generated nozzle adapter and one clockwise guard component. Coordinates are in millimetres. The [gd34 study record](gd34-study.md) links the latest adapter to its original optimization inputs; the meshes remain separate from editable histories and solver results.
 
 Third-party frame geometry is not included in the component package.
 
