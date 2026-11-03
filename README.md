@@ -8,6 +8,8 @@
 
 Our fourth test-flight video shows the cleaning drone working beside the building, with water supplied from the ground.
 
+[Explore the work](#explore-the-work) · [Engineering tools](#engineering-tools)
+
 ## The project
 
 Vitrobotics began as Aeroshine. We wanted to move the cleaning equipment to the façade while keeping the operator and water supply on the ground.
