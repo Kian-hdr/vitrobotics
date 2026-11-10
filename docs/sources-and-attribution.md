@@ -17,7 +17,7 @@ Contemporary papers and plans describe the project's direction at the time. The 
 
 ## Credits
 
-**Kian Konrad Tajbakhsh** founded the project and contributed to its engineering development.
+**Kian Konrad** founded the project and contributed to its engineering development.
 
 **Drone Masters Academy** sponsored the DJI Inspire 1 Pro used as the starting platform. Testing took place at **Factory Hammerbrooklyn**, our headquarters in Hamburg.
 
