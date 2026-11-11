@@ -1,4 +1,4 @@
-# Vitrobotics
+<p align="center"><strong>Vitrobotics</strong></p>
 
 **Drone-based façade cleaning, from a modified aircraft to custom mechanical design.**
 
